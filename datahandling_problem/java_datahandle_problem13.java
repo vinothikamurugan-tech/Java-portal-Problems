@@ -4,5 +4,5 @@ public class Main{
         Scanner sc = new Scanner(System.in);
         float num = sc.nextFloat();
         System.out.printf("%.3f" , num);
-    }
+    } 
 }
