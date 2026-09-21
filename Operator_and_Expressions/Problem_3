@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        float h = sc.nextFloat();
+        float r = sc.nextFloat();
+        float week = h*r;
+        float month = (h*r*52)/12;
+        float ann = (h*r*52);
+        System.out.printf("Weekly Gross Pay: %.1f\n", week);
+        System.out.printf("Monthly Gross Pay: %.1f\n", month);
+        System.out.printf("Annual Gross Pay: %.1f\n", ann);
+    }
+}
