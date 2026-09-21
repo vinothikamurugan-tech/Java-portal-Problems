@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        String empId = sc.next();
+        float day = sc.nextFloat();
+        float amount = sc.nextFloat();
+        System.out.println("Employee's ID = "+empId);
+        System.out.printf("Salary = Rs. %.2f", day*amount);
+    }
+}
