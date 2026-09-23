@@ -4,7 +4,7 @@ public class Main{
         Scanner sc = new Scanner(System.in);
         float d = sc.nextFloat();
         System.out.printf("Yards: %.1f\n", d*1760);
-        System.out.printf("Feet: %.1f\n", d*5280);
+        System.out.printf("Feet: %.1f\n", d*5280); 
         System.out.printf("Inches: %.1f\n", d*63360);
     }
 }
