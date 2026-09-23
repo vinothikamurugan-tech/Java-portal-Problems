@@ -5,6 +5,6 @@ public class Main{
         float l = sc.nextFloat();
         float w = sc.nextFloat();
         float feet = l*w;
-        System.out.printf("%.2f" , feet/9);
+        System.out.printf("%.2f" , feet/9); 
     }
 }
