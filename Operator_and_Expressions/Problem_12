@@ -6,7 +6,7 @@ public class Main{
         int yr = n/365;
         int yr1 = n%365;
         int week = yr1/7;
-        int days = yr1%7;
+        int days = yr1%7; 
         System.out.println("Years: "+yr);
         System.out.println("Weeks: "+week);
         System.out.println("Days: "+days);
