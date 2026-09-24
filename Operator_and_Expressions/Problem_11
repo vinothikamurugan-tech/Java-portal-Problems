@@ -3,7 +3,7 @@ public class Main{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         float f = sc.nextFloat();
-        double x = 5/9.0;
+        double x = 5/9.0; 
         double y = x*(f-32);
         System.out.printf("%.2f", y);
     }
