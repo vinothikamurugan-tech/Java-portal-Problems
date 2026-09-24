@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        float l = sc.nextFloat();
+        float w = sc.nextFloat();
+        float h = sc.nextFloat();
+        float p = sc.nextFloat();
+        float s = sc.nextFloat();
+        
+        float ans = (2*l*h)+(2*w*h);
+        float x = ans/s;
+        int area =(int)(x+0.9999);
+        System.out.printf("Total Cost: %.2f", area*p);
+    }
+}
