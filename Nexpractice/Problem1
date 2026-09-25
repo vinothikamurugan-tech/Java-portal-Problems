@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        long a[] = new long[n];
+        for(int i=0 ; i<n ; i++){
+            a[i] = sc.nextLong();
+        }
+        long key = sc.nextLong();
+        int store = -1;
+        int rot = 0;
+        for(int i=1 ; i<n ; i++){
+            if(a[i]<a[i-1]){
+                rot++;
+            }
+        }
+        for(int i=0 ; i<n ; i++){
+            if(a[i]==key){
+                store = i;
+            }
+        }
+        if(rot==1 && store!=-1){
+            System.out.println(store);
+        }else if(rot==1 && store==-1){
+            System.out.println("-1");
+        }else{
+            System.out.println("Invalid");
+        }
+
+
+    }
+}
