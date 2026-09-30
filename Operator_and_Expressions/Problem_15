@@ -5,7 +5,7 @@ public class Main{
         int n = sc.nextInt();
         int sum = 0;
         for(int i=1 ; i<6 ; i++){
-            int temp = n%10;
+            int temp = n%10;   
             if(i==2 || i==5){
                 sum = sum+temp;
             }
