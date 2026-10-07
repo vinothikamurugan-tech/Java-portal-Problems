@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int a = n;
+        int d = n;
+        int c = 0;
+        while(n!=0){
+            c++;
+            n/=10;
+        }
+        int sum =0;
+        while(a!=0){
+            int temp = a%10;
+            int pro = 1;
+            int count = c;
+            while(count>=1){
+                pro=pro*temp;
+                count--;
+            }
+            sum = sum+pro;
+            a/=10;
+        }
+        if(d==sum){
+            System.out.println("Yes");
+        }else{
+            System.out.println("No");
+        }
+    }
+}
