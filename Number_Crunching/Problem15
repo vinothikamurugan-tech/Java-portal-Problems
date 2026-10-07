@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        long n = sc.nextInt();
+        long a = n*n;
+        long c = a;
+        long pro = 0;
+        if(n!=0 && n%10==0){
+            System.out.println("No");
+            return;
+        }
+        while(n!=0){
+            long temp = n%10;
+            pro = pro*10+temp;
+            n/=10;
+        }
+        long b = pro*pro;
+        long d = 0;
+        while(a!=0){
+            long temp = a%10;
+            d = d*10+temp;
+            a/=10;
+        }
+        if(d==b){
+            System.out.println("Yes");
+        }else{
+            System.out.println("No");
+        }
+    }
+}
