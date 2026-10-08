@@ -4,7 +4,7 @@ public class Main{
         Scanner sc = new Scanner(System.in);
         long a = sc.nextLong();
         long b = sc.nextLong();
-        long c = a+b;
+        long c = a+b; 
         System.out.println(c);
     }
 }
