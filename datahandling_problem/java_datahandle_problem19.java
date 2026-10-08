@@ -4,6 +4,6 @@ public class Main{
         Scanner sc = new Scanner(System.in);
         float f = sc.nextFloat();
         double inch = 0.0254*f;
-        System.out.printf("%.0f inch is %.2f meters",f ,inch);
+        System.out.printf("%.0f inch is %.2f meters",f ,inch); 
     }
 }
