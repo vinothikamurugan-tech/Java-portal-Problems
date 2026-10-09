@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        long n = sc.nextLong();
+        int count = 0;
+        while(n>=10){
+            long temp = n;
+            long sum = 1;
+            while(temp!=0){
+                long tem = temp%10;
+                sum = sum*tem;
+                temp/=10;
+            }
+            n = sum;
+            count++;
+        }
+        System.out.println(count+" "+n);
+
+    }
+}
