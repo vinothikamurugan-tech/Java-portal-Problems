@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        long n = sc.nextLong();
+        long current = n%10000000000l;
+        long a = current%100000;
+        long b = current/100000;
+        System.out.println(a+""+b);
+    }
+}
