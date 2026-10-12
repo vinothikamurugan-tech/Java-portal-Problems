@@ -11,7 +11,7 @@ public class Main{
                 sum = sum+temp;
                 n/=10;
             }
-            n = sum;
+            n = sum; 
         }
         if(n==1){
             System.out.println("Yes");
