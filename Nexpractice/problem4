@@ -9,7 +9,7 @@ public class Main{
         }
         int max = 0;
         int store = 0;
-        boolean b[] = new boolean[n];
+        boolean b[] = new boolean[n];b
         for(int i=0 ; i<n ; i++){
             if(b[i]==false){
                 int count = 0;
