@@ -5,4 +5,4 @@ public class Main{
         float num = sc.nextFloat();
         System.out.printf("%.3f" , num);
     } 
-}
+} 
